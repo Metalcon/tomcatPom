@@ -13,7 +13,7 @@ See https://github.com/Metalcon/pom/ how to use a parental pom.
 ### Tomcat auto deployment
 
 To use auto deployment to your local Tomcat server you have to have Tomcat configured correctly.
-The server id is `local-tomcat`.  
+The server id to be set in `~/.m2/settings.xml` is supposed to be `local-tomcat`.  
 Be aware of that the credentials of this server must be set to a user with role `manager-script`.
 
 Set ${tomcat.deployPath} to the path for your web application.
