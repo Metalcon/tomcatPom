@@ -16,13 +16,13 @@ To use auto deployment to your local Tomcat server you have to have Tomcat confi
 There must be a server `local-tomcat` in your Maven Settings file.  
 Be aware of that the credentials of this server must be set to a Tomcat user with role `manager-script`.
 
-Set ${tomcat.deploy-plugin.path} to the path for your web application.
+Set `tomcat.deploy-plugin.path` to the path for your web application:
 
     <project ..>
       ...
       <properties>
         <!-- Tomcat deployment path -->
-        <tomcat.deployPath>/mywebapp</tomcat.deployPath>
+        <tomcat.deploy-plugin.path>/mywebapp</tomcat.deploy-plugin.path>
       </properties>
       ...
     </project>
