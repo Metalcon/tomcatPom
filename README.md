@@ -27,4 +27,5 @@ Set ${tomcat.deployPath} to the path for your web application.
       ...
     </project>
 
-Use `mvn tomcat7:deploy` (or `redeploy`).
+Use `mvn tomcat7:deploy` or `redeploy`.  
+(`mvn tomcat:deploy` will result in HTTP Status message 403 for Tomcat 7 with the plugin used.)
