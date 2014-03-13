@@ -7,7 +7,6 @@
   
   <modelVersion>4.0.0</modelVersion>
   <artifactId>tomcat-pom</artifactId>
-  <version>0.0.2</version>
   <packaging>pom</packaging>
   <name>Tomcat POM</name>
   <description>parental POM for Metalcon projects using Tomcat</description>
@@ -47,14 +46,4 @@
       </plugin>
     </plugins>
   </build>
-  
-  <dependencies>
-    <!-- Tomcat classes -->
-    <dependency>
-      <groupId>org.apache.tomcat.maven</groupId>
-      <artifactId>tomcat7-maven-plugin</artifactId>
-      <version>2.1</version>
-      <scope>provided</scope>
-    </dependency>
-  </dependencies>
 </project>
