@@ -13,7 +13,7 @@ See https://github.com/Metalcon/pom/ how to use a parental pom.
 ### Tomcat auto deployment
 
 To use auto deployment to your local Tomcat server you have to have Tomcat configured correctly.
-There must be a server `local-tomcat` in your Maven Settings file and if you have set the Maven master password the password for this server **must** be encrypted.  
+There must be a server `local-tomcat` in your Maven Settings file.  
 Be aware of that the credentials of this server must be set to a Tomcat user with role `manager-script`.
 
 Set ${tomcat.deployPath} to the path for your web application.
@@ -26,3 +26,5 @@ Set ${tomcat.deployPath} to the path for your web application.
       </properties>
       ...
     </project>
+
+Use `mvn tomcat7:deploy` (or `redeploy`).
