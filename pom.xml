@@ -32,7 +32,7 @@
         <version>${war-plugin.version}</version>
         <configuration>
           <failOnMissingWebXml>false</failOnMissingWebXml>
-         <resourceEncoding>UTF-8</resourceEncoding>
+          <resourceEncoding>UTF-8</resourceEncoding>
         </configuration>
       </plugin>
 
